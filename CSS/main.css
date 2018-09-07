@@ -1,27 +1,45 @@
-h1{
+h1 {
     color: #006341;
     text-align: center;
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
 }
+
 body {
     background-color: #FFF;
 }
 
 img {
     display: block;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
 }
 
-li {
+ul.name {
+    line-height: 25px;
+    font-family: 'Lora', Times, "Times New Roman", serif;
+    font-weight: 700;
+    text-align:justify;
+    margin-left:80px;
+}
+
+ul.name li {
+    list-style: none;
+    text-align: left;
+    font-family: 'Lora', Times, "Times New Roman", serif;
+    text-align: inherit;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+ul.photo {
+    list-style: none;
+}
+
+ul.photo li {
     text-align: center;
-    font-family: 'Lora',Times, "Times New Roman", serif;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
     color: darkslategrey;
     font-size: 20px;
     margin-top: 30px;
-}
-
-ul {
-    list-style: none;
 }
